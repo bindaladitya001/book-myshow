@@ -1,0 +1,14 @@
+package com.scaler.payment.paymentService.dtos;
+
+import lombok.Data;
+
+@Data
+public class TicketResponse {
+    private String time;
+    private String date;
+    private String movieName;
+    private String theaterName;
+    private String address;
+    private String bookedSeats;
+    private double totalPrice;
+}

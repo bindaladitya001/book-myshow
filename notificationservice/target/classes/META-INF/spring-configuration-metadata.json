@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "twilio",
+      "type": "com.aditya.notificationservice.config.TwilioConfig",
+      "sourceType": "com.aditya.notificationservice.config.TwilioConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "twilio.account-s-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.aditya.notificationservice.config.TwilioConfig"
+    },
+    {
+      "name": "twilio.auth-token",
+      "type": "java.lang.String",
+      "sourceType": "com.aditya.notificationservice.config.TwilioConfig"
+    },
+    {
+      "name": "twilio.from-number",
+      "type": "java.lang.String",
+      "sourceType": "com.aditya.notificationservice.config.TwilioConfig"
+    },
+    {
+      "name": "twilio.to-number",
+      "type": "java.lang.String",
+      "sourceType": "com.aditya.notificationservice.config.TwilioConfig"
+    }
+  ],
+  "hints": []
+}
